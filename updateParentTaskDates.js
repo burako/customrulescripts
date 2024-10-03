@@ -1,3 +1,5 @@
+// updates a parent task's start and due dates based on subtask dates
+
 async function updateParentTaskDates(parentTaskGid) {
   try {
     // Fetch all subtasks of the main task
