@@ -1,3 +1,8 @@
+// calculates business days between a task's dates
+// total effort is the no of business days between start and due date
+// planned effort is the no of business days between due date and today
+// replace CF_GID with your actual custom field GIDs for respective custom fields.
+
 const calculateBusinessDays = (startDate, endDate) => {
     let count = 0;
     let currentDate = new Date(startDate);
